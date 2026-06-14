@@ -1,5 +1,7 @@
 # 🧭 PathForge — MERN Stack Student Learning Ecosystem
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/sathviknamburi/PathForge)
+
 PathForge is a complete, feature-rich MERN stack application designed for students. It combines the gamified learning loop of **Duolingo**, the structured learning paths of **Roadmap.sh**, and the note-taking capabilities of **Notion** into a unified student portal.
 
 ## 🚀 Quick Start
