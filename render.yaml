@@ -9,7 +9,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: NODE_VERSION
-        value: 20.10.0
+        value: 22.12.0
       - key: npm_config_production
         value: false
       - key: MONGO_URI
