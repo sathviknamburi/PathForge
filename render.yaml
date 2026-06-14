@@ -3,7 +3,7 @@ services:
     name: pathforge
     env: node
     plan: free
-    buildCommand: npm run install-all && npm run build:frontend
+    buildCommand: NODE_ENV=development npm run install-all && NODE_ENV=development npm run build:frontend
     startCommand: node backend/server.js
     envVars:
       - key: NODE_ENV
