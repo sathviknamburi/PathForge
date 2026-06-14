@@ -1,0 +1,19 @@
+{
+  "name": "pathforge",
+  "version": "1.0.0",
+  "description": "PathForge — A student-focused MERN stack learning ecosystem",
+  "scripts": {
+    "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "build:frontend": "npm run build --prefix frontend",
+    "start": "npm run build:frontend && node backend/server.js"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
